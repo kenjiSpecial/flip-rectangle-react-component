@@ -1,2 +1,4 @@
-NPM Starter Kit for React Component 
+Flip Rectangle React Component 
 ---
+
+
