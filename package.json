@@ -1,7 +1,7 @@
 {
   "name": "react",
-  "version": "0.0.0",
-  "description": "A React component || ",
+  "version": "0.0.1",
+  "description": "A React component || Flip Rectangle React Component",
   "main": "index.js",
   "browserify": {
     "transform": [
@@ -9,14 +9,13 @@
     ]
   },
   "scripts": {
-    "test": "eslint index.js src",
     "start": "watchify example/index.js -o example/bundle/site.js & st -nc",
     "sass-watch": "gulp watch",
     "st": "st -nc"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kenjiSpecial/flip-rectangle-react-component"
   },
   "keywords": [
     "react"
@@ -24,9 +23,10 @@
   "author": "kenji-special",
   "license": "MIT",
   "dependencies": {
-
+    "react": "^0.13.2"
   },
   "devDependencies": {
+    "st": "^0.5.3",
     "babel-eslint": "^3.0.1",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",

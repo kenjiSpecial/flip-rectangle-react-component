@@ -1,5 +1,28 @@
 @import "reset";
 
+@import "utils/easing";
+
+@import "components/flip-button";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
 body{
   background: #fff;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.flip-container{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }

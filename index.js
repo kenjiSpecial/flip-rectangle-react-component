@@ -8,7 +8,16 @@ var React = require('react');
 class HelloWorld extends React.Component{
     render(){
         return (
-            <div>Hello World</div>
+            <div className="flip-container">
+                <div className="flipper">
+                    <div className="front">
+                        1
+                    </div>
+                    <div className="back">
+                        <div className="cross"></div>
+                    </div>
+                </div>
+            </div>
         );
     }
 }

@@ -27,8 +27,21 @@ var HelloWorld = (function (_React$Component) {
         value: function render() {
             return React.createElement(
                 'div',
-                null,
-                'Hello World'
+                { className: 'flip-container' },
+                React.createElement(
+                    'div',
+                    { className: 'flipper' },
+                    React.createElement(
+                        'div',
+                        { className: 'front' },
+                        '1'
+                    ),
+                    React.createElement(
+                        'div',
+                        { className: 'back' },
+                        React.createElement('div', { className: 'cross' })
+                    )
+                )
             );
         }
     }]);
